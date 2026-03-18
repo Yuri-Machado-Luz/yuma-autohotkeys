@@ -6,7 +6,7 @@ Esse repositório contém macros AHK variados para utilização geral.
 
 ---
 
-> [!WARNING]- Aviso
+> Aviso
 >
 > ## Scripts otimizados para uso pessoal
 >
@@ -14,7 +14,7 @@ Esse repositório contém macros AHK variados para utilização geral.
 
 ---
 
-> [!NOTE]- Nota
+> Nota
 > Remendo a leitura da [documentação oficial](https://www.autohotkey.com/docs/v2/) para melhor entendimento do funcionamento dos scripts.
 
 ## Estrutura
