@@ -17,8 +17,45 @@ Esse repositório contém macros AHK variados para utilização geral.
 > [!NOTE]- Nota
 > Remendo a leitura da [documentação oficial](https://www.autohotkey.com/docs/v2/) para melhor entendimento do funcionamento dos scripts.
 
+## Estrutura
+
+```tree
+active-development/  → Playground com scripts experimentais e em desenvolvimento
+plug-n-play/         → Scripts estáveis e prontos para usar
+tests/               → Testes de modularidade e conceitos
+```
+
 ## Scripts
 
-> \.
-> <img src="https://capsule-render.vercel.app/api?type=rounded&height=125&color=&color=eeee00&text=Work%20in%20Progress&textBg=false&fontColor=fff&animation=twinkling&stroke=000&strokeWidth=0.8" alt="Work in Progress"></img>
-> \.
+### 🎯 [plug-n-play/](./plug-n-play/)
+
+Scripts prontos para produção. Copie o arquivo `.ahk` desejado e execute.
+
+### Requisitos
+
+- Windows 10+
+- [AutoHotkey 2.0.18+](https://www.autohotkey.com/download/)
+
+#### [**Hotkey Combo Maker**](./plug-n-play/shortcuts-combo-remap/README.md)
+
+Sistema de combo-based hotkey remapping com modificadores acumulados.
+
+**Recursos:**
+
+- Duplo clique em Shift para ativar combo mode
+- Acumular modificadores (Space → Shift, Ctrl → Ctrl, Alt → Alt)
+- Enviar F13-F23 com modificadores via letras/números
+- Auto-close por timeout ou triplo Shift
+
+**Arquivos:**
+
+- `better-remap.ahk` — Versão otimizada (recomendada)
+- `better-remap-documented.ahk` — Versão com comentários detalhados
+
+[Documentação](./plug-n-play/shortcuts-combo-remap/README.md)
+
+### [active-development/](./active-development/)
+
+Arquivos experimentais e em desenvolvimento. **Não recomendado para uso.**
+
+- `playground.ahk` — Compilado de snippets variados para prototipar ideias
