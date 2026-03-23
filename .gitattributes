@@ -1,1 +1,4 @@
-*.ahk text eol=crlf
+*.ahk text eol=crlf
+*.md text eol=crlf
+
+
