@@ -1,16 +1,15 @@
 # Plug & Play Scripts
 
 Scripts AHK prontos para uso. Copie o arquivo desejado para sua máquina e execute.
-
 ## Scripts disponíveis
 
 ### Hotkey Combo Maker
 
 📁 **Local:** `shortcuts-combo-remap/`
 
-Sistema de combo-based hotkey remapping com modificadores acumulados para AutoHotkey 2.0.18+
+Sistema baseado em combos para adição de atalhos com modificadores acumulados para AutoHotkey 2.0.18+
 
-**Começar rapidinho:**
+**Quick Start**
 
 1. Copie `shortcuts-combo-remap/better-remap.ahk` para onde quiser
 2. Execute o arquivo (`.ahk`)
@@ -29,17 +28,14 @@ Sistema de combo-based hotkey remapping com modificadores acumulados para AutoHo
 ```
 
 [📖 Documentação completa](./shortcuts-combo-remap/README.md)
-
 ## Como escolher qual usar?
 
 - **`better-remap.ahk`** — Use esta. Versão compilada e otimizada.
 - **`better-remap-documented.ahk`** — Use se quiser estudar o código. Comentários linhas a linha.
-
 ## Requisitos
 
 - Windows 10+
 - [AutoHotkey 2.0.18+](https://www.autohotkey.com/download/)
-
 ## Personalização
 
 Edite as variáveis no topo de cada script:

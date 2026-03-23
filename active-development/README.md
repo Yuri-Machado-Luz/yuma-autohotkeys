@@ -17,11 +17,8 @@ Playground com scripts em desenvolvimento e experimentação.
 Compilado de snippets variados para testes e experimentação. Contém:
 
 - Tentativas de diferentes padrões e soluções
-- Código em refactoring
-- Prototipagem de novas features
-
-**Versão estável:** Se procura uma versão funcional do remapper, use [`../plug-n-play/better-remap.ahk`](../plug-n-play/shortcutes-combo-remap/better-remap.ahk)
-
+- Código que serão modificados
+- Prototipagem de novas funcionalidades
 ## Como usar
 
 Se quer testar uma ideia:
@@ -36,4 +33,3 @@ Se quer testar uma ideia:
 - Use comentários liberalmente
 - Documente seu pensamento experimental
 - Link para issues ou PRs relacionadas quando possível
-- Delete código que virou obsoleto ou foi movido para plug-n-play
